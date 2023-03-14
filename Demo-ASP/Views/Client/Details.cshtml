@@ -1,0 +1,37 @@
+﻿@model ClientListItem
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Client Details</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.prenom)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.nom)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.prenom)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id= Model.Client_id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=Model.Client_id })
+            </td>
+        </tr>
+
+    </tbody>
+</table>
