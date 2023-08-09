@@ -1,5 +1,5 @@
 # Accommodation Booking Website developed using ASP.NET MVC + Microsoft SQL Server 
-### The website allows users to add/ browse / book and rate accommodation.
+### This tool allows users to add/ browse / book and rate accommodation.
 
 Features
 Browse and search for available services.
