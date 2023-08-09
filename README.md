@@ -1,6 +1,6 @@
 # **Accommodation Booking Tool**
-## ** Tech used: ASP.NET MVC + Microsoft SQL Server **
-### ** Project description: The tool allows users to browse/ add/ book and rate accommodation **
+## **Tech used: ASP.NET MVC + Microsoft SQL Server**
+### **Project description: The tool allows users to browse/ add/ book and rate accommodation**
 
 Features
 Browse and search for available services.
