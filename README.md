@@ -29,16 +29,3 @@ The project follows a standard ASP.NET 5 structure. Here's an overview of the im
 
 
 
-## Installation of dependencies using Composer
-
-`composer install`
-
-## Database setup 
-
-- `php bin/console doctrine:database:create`
-- `php bin/console doctrine:migrations:migrate`
-
-## Start the Development Server
-navigate to the project's root directory and run:
-
-`symfony serve`
