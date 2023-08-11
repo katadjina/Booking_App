@@ -1,5 +1,5 @@
 # **Accommodation Booking Tool**
-## ASP.NET MVC 5 + Microsoft SQL Server**
+## ASP.NET MVC 5 + MSSQL Server
 ### **Project description: The tool allows users to browse/ add/ book and rate accommodation**
 
 
