@@ -17,3 +17,28 @@ The project follows a standard ASP.NET 5 structure. Here's an overview of the im
 * Views/: Holds the Razor views for rendering HTML
 
 
+
+
+
+# Installation
+
+## Prerequisites
+
+- Visual Studio (2013 or later) with ASP.NET and Web Development workload
+- Microsoft SQL Server (Express edition or higher)
+
+
+
+## Installation of dependencies using Composer
+
+`composer install`
+
+## Database setup 
+
+- `php bin/console doctrine:database:create`
+- `php bin/console doctrine:migrations:migrate`
+
+## Start the Development Server
+navigate to the project's root directory and run:
+
+`symfony serve`
