@@ -7,12 +7,12 @@
 ## Project Structure
 The project follows a standard ASP.NET 6 structure. Here's an overview of the important files and folders:
 
-Controllers/: Contains the controller classes for handling HTTP requests.
-Models/: Includes the model classes representing data entities.
-Views/: Holds the Razor views for rendering HTML.
-appsettings.json: Configuration file for application settings.
-Startup.cs: Configuration and initialization of the application.
-YourDbContext.cs: The database context class for SQLite.
+*Controllers/: Contains the controller classes for handling HTTP requests.
+*Models/: Includes the model classes representing data entities.
+*Views/: Holds the Razor views for rendering HTML.
+*appsettings.json: Configuration file for application settings.
+*Startup.cs: Configuration and initialization of the application.
+*YourDbContext.cs: The database context class for SQLite.
 
 
 
