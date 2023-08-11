@@ -2,6 +2,20 @@
 ## **Tech used: ASP.NET MVC + Microsoft SQL Server**
 ### **Project description: The tool allows users to browse/ add/ book and rate accommodation**
 
+
+
+## Project Structure
+The project follows a standard ASP.NET 6 structure. Here's an overview of the important files and folders:
+
+Controllers/: Contains the controller classes for handling HTTP requests.
+Models/: Includes the model classes representing data entities.
+Views/: Holds the Razor views for rendering HTML.
+appsettings.json: Configuration file for application settings.
+Startup.cs: Configuration and initialization of the application.
+YourDbContext.cs: The database context class for SQLite.
+
+
+
 Features
 Browse and search for available services.
 View detailed information about each service, including descriptions, prices, and availability.
